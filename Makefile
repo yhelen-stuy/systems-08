@@ -1,7 +1,7 @@
 all:
 	gcc -o files files.c
 
-run:
+run: all
 	./files
 
 clean:
