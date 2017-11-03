@@ -81,7 +81,7 @@ int main() {
 
     printf("size: %lu\n", sb.st_size);
     printf("mode: %o\n", sb.st_mode);
-    printf("size: %s\n", ctime(&(sb.st_atime)));
+    printf("last access time: %s\n", ctime(&(sb.st_atime)));
     print_size(sb.st_size);
     print_mode(sb.st_mode);
 }
